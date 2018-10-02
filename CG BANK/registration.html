@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register customer </title>
+	<style type="text/css">
+	@import url("register.css");
+	</style>
+</head>
+<body class="registerbody">
+<header><h2 align="center" class="reghead">Register here</h2></header>
+<nav>NAVIGATION BAR</nav>
+<main >
+	<div class="leftdiv">
+		<ul>Instructions for registering account
+			<li></li>
+
+		</ul>
+
+
+
+	</div>
+	<div class="rightdiv">
+		<div class="otp1">
+		<table>
+			<tr>
+				<td>Name</td>
+				<td ><input type="text" name="uname" required /></td>
+			</tr>
+			<tr>
+				<td>Email-Id</td>
+				<td><input type="EMAIL" name="email" required /></td>
+
+			</tr>
+			<tr>
+				<td>Mobile No:</td>
+				<td><input type="text" name="mobno"/></td>
+
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="button" class="otpregister" name="generateOTP" value="Generate OTP"></td>
+
+			</tr>
+		</table>
+		</div>
+		<div class="otp2">
+			<table>
+			<tr>
+				<td>OTP</td>
+				<td><input type="text" name="otpcode"/></td>
+
+			</tr>
+			<tr>
+				<td>Create Password</td>
+				<td><input type="PASSWORD" name="password" required /></td>
+
+			</tr>
+			<tr>
+				<td>Confirm Password</td>
+				<td><input type="PASSWORD" name="cnfpassword" required /></td>
+
+			</tr>
+			<tr>
+				<td>Security Question1:</td>
+				<td><input type="text" name="securityque1"/></td>
+
+			</tr>
+			<tr>
+				<td>Transaction Password:</td>
+				<td><input type="password" name="transacpass"/></td>
+
+			</tr>
+			
+			<tr>
+				<td><input type="reset" name="Reset"></td>
+				<td><input type="submit" name="submit" value="Register+"></td>
+			</tr>
+		</table>
+	</div>
+</div>
+</main> 
+<div class="footer">FOOTER</footer>
+</body>
+</html>
